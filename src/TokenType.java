@@ -1,5 +1,4 @@
 
 public enum TokenType {
-    numero, suma, resta, division, multiplicacion, 
-    parentesis_izquierdo, parentesis_derecho, end
+    abrirTag, cerrarTag, CERRAR_TAG_SIN_HIJOS, VALOR, ID, abrirTagFinal, asignacion, EOF
 }
